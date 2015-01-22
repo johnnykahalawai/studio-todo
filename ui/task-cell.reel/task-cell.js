@@ -19,5 +19,11 @@ exports.TaskCell = Component.specialize(/** @lends TaskCell# */ {
         value: function(firstTime) {
             console.log("Entering document");
         }
+    },
+    
+    didDraw: {
+        value: function() {
+            console.log("Did draw");
+        }   
     }
 });
