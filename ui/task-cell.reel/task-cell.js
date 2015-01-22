@@ -13,5 +13,11 @@ exports.TaskCell = Component.specialize(/** @lends TaskCell# */ {
         value: function TaskCell() {
             this.super();
         }
+    },
+    
+    enterDocument: {
+        value: function(firstTime) {
+            console.log("Entering document");
+        }
     }
 });
