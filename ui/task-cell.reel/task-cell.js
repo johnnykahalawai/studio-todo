@@ -26,4 +26,5 @@ exports.TaskCell = Component.specialize(/** @lends TaskCell# */ {
             console.log("Did draw");
         }   
     }
+
 });
